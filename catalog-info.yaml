@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vitest-ctrf-json-reporter
+  description: A Vitest test reporter to create test reports that follow the CTRF standard
+  annotations:
+    github.com/project-slug: veho-technologies/vitest-ctrf-json-reporter
+  links:
+    - url: https://www.npmjs.com/package/vitest-ctrf-json-reporter
+      title: NPM Package
+      icon: web
+  tags:
+    - typescript
+    - vitest
+    - testing
+    - reporter
+    - ctrf
+    - library
+    - npm
+spec:
+  type: library
+  lifecycle: production
+  owner: developer-platform
